@@ -11,7 +11,7 @@ function compute()
     else
     {
         alert("Enter a positive number");
-        document.getElementById("principal").focus;
+        document.getElementById("principal").focus();
     }
 }
 function updateRate()
@@ -25,6 +25,6 @@ function principalvalidate()
     if(principal<=0)
     {
         alert("Enter a positive number");
-        document.getElementById("principal").focus;
+        document.getElementById("principal").focus();
     }
 }      
